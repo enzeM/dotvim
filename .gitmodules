@@ -1,7 +1,6 @@
 [submodule "bundle/vim-syntastic"]
 	path = bundle/vim-syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
@@ -17,6 +16,3 @@
 [submodule "bundle/sensible"]
 	path = bundle/sensible
 	url = https://github.com/tpope/vim-sensible.git
-[submodule "bundle/dash.vim"]
-	path = bundle/dash.vim
-	url = https://github.com/rizzatti/dash.vim.git
