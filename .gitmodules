@@ -18,5 +18,5 @@
 	path = bundle/sensible
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "bundle/dash.vim"]
-	path = bundle/dash.vim
+	path = bundle/dot.vim
 	url = https://github.com/rizzatti/dash.vim.git
