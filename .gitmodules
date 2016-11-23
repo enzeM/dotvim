@@ -1,6 +1,7 @@
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = git://github.com/tpope/vim-markdown.git
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = http://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-syntastic"]
+	path = bundle/vim-syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
