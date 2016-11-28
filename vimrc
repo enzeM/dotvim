@@ -15,7 +15,7 @@ runtime! plugin/sensible.vim
 filetype plugin indent on
 
 "set theme
-colorscheme twilight
+colorscheme twilight256
 
 "setup tagbar shortcut
 nmap <F8> :TagbarToggle<CR>
