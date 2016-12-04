@@ -9,7 +9,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 #repalce some command
 alias ls="ls -GFh"
-alias rm="rm -i"
+alias rm="trash"
 
 #set python3 as the default python interpreter
 alias python="python3"

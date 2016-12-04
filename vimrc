@@ -30,7 +30,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
@@ -48,3 +48,7 @@ nmap <leader>[ :bp<CR>
 nmap <leader>] :bn<CR>
 "setup dash search short cut
 :nmap <leader>d :Dash<CR>
+
+"setup vim airline theme
+let g:airline_theme='term'
+let g:airline_powerline_fonts = 1
