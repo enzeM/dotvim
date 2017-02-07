@@ -15,17 +15,22 @@ execute pathogen#infect()
 runtime! plugin/sensible.vim
 
 "check filetype and operate auto indent
+filetype plugin on
 filetype plugin indent on
+
+"set default python indent to tab
+augroup python_files 
+	autocmd!  
+	autocmd FileType python setlocal noexpandtab 
+	autocmd FileType python set tabstop=4 
+	autocmd FileType python set shiftwidth=4
+augroup END
 
 "set background color
 set background=light
 
 "set theme
 colorscheme solarized
-
-"setup vim airline theme
-let g:airline_theme='solarized'
-let g:airline_powerline_fonts = 1
 
 "setup tagbar shortcut
 nmap <F8> :TagbarToggle<CR>
@@ -58,4 +63,3 @@ nmap <leader>[ :bp<CR>
 nmap <leader>] :bn<CR>
 "setup dash search short cut
 :nmap <leader>d :Dash<CR>
-
