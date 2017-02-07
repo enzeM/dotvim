@@ -28,9 +28,3 @@
 [submodule "bundle/vim-javacomplete2"]
 	path = bundle/vim-javacomplete2
 	url = https://github.com/artur-shaik/vim-javacomplete2.git
-[submodule "bundle/vim-notes"]
-	path = bundle/vim-notes
-	url = https://github.com/xolox/vim-notes.git
-[submodule "bundle/vim-misc"]
-	path = bundle/vim-misc
-	url = https://github.com/xolox/vim-misc.git
