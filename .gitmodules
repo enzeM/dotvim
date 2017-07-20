@@ -25,9 +25,6 @@
 [submodule "bundle/vim-color-solarized"]
 	path = bundle/vim-color-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-javacomplete2"]
-	path = bundle/vim-javacomplete2
-	url = https://github.com/artur-shaik/vim-javacomplete2.git
 [submodule "bundle/vim-markdown-preview"]
 	path = bundle/vim-markdown-preview
 	url = https://github.com/JamshedVesuna/vim-markdown-preview.git
