@@ -45,3 +45,8 @@ git submodule deinit <submodule name>
 git rm (-f or --cached) <submodule name>
 ```
 + <code>-f</code>: delete file, <code>--cached</code>: leave file to local
+
+#### Update submodule:
+```
+git submodule update
+```
